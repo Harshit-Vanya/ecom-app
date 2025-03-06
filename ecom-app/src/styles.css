@@ -1,0 +1,158 @@
+:root {
+  --primary: #1F1F1F; 
+  --prbutton: #00cbe6; 
+  --text-light: #ffffff;
+  --text-dark: #000000;
+  --input-bg: #ffffff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.product-page {
+  padding: 20px;
+}
+
+.checkout {
+  padding: 20px;
+}
+
+.custom-navbar {
+  padding: 10px 0;
+  background-color: #131921;
+  color: white;
+}
+
+.custom-navbar .navbar-brand {
+  color: white;
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: #ff9900;
+}
+
+.home-link {
+  color: white !important;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.home-link:hover {
+  color: #ff9900 !important;
+}
+
+.location-picker {
+  color: white !important;
+  font-size: 0.9em;
+  line-height: 1.2;
+  margin-right: 20px;
+}
+
+.location-picker:hover {
+  color: #ff9900 !important;
+}
+
+
+
+.navbar-button {
+  background-color: #ff9900;
+  border-color: #ff9900;
+  color: black;
+}
+
+.navbar-button:hover {
+  background-color: #ffa41c;
+  border-color: #ffa41c;
+  color: black;
+}
+
+.account-text {
+  color: white;
+  font-size: 0.9em;
+  line-height: 1.2;
+}
+
+.account-cart {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  line-height: 1.2;
+  margin: 0 15px;
+}
+
+.account-cart:hover {
+  color: #ff9900;
+}
+
+.cart-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.cart-icon:hover {
+  color: #ff9900;
+}
+
+.dropdown-menu {
+  background-color: #232f3e;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #ff9900;
+  color: black;
+}
+
+.form-select, .form-control {
+  margin-right: 5px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-light) !important;
+  font-size: 14px;
+}
+
+.search-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .form-control {
+  width: 650px;
+  border-radius: 4px;
+  padding: 6px 10px;
+  border: none;
+  background-color: var(--input-bg);
+}
+
+.navbar .dropdown-toggle {
+  color: var(--text-light) !important;
+}
+.navbar .me-2{
+  width: 15%;
+}
